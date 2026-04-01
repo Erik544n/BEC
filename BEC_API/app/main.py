@@ -3,7 +3,7 @@ from app.data.database import engine
 from app.models.models import Base
 from app.routers import auth, usuarios, albergues, campanas, donaciones, voluntariados, catalogos
 
-Base.metadata.create_all(bind=engine)
+#Base.metadata.create_all(bind=engine)
 
 #Instancia de FastAPI
 app = FastAPI(
